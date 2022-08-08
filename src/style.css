@@ -82,6 +82,9 @@ tbody tr:nth-child(even) {
 
 .btn-group button:disabled {
     pointer-events: none;
+    background: grey;
+    border: 1px solid grey;
+
 }
 
 .btn-group label {
