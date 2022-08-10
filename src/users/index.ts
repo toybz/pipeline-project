@@ -70,7 +70,7 @@ async function pageChangeOperations(pageNum: number) {
  * @param {Array} pageData the users in the page
  */
 function uiRenderer(page: number, pageData: UsersT[]) {
-  appContainer.innerHTML = `<table>
+  appContainer.innerHTML = `<table>  
         <caption>paginated random data of app users</caption>
         <thead>
             <tr>
