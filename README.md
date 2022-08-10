@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8ddd184d7ca842aaaf6beb1cef69d1c9)](https://www.codacy.com/gh/toybz/pipeline-project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=toybz/pipeline-project&amp;utm_campaign=Badge_Grade)[![Netlify Status](https://api.netlify.com/api/v1/badges/70656fbd-29a0-46f3-b851-7dce15b2960a/deploy-status)](https://app.netlify.com/sites/toyeeb-pipeline-submission/deploys)
+
 # Frontend Assessment
 
 Build and deploy a very simple frontend app for paginated data, that does the following

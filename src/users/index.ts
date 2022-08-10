@@ -49,7 +49,7 @@ export function initApp(appRoot: HTMLElement) {
 async function pageChangeOperations(pageNum: number) {
   const pageData = fetchedUsers[pageNum];
   if (pageData) {
-    renderPage(pageNum, pageData);
+    uiRenderer(pageNum, pageData);
   } else {
     let response = await fetchUsers(pageNum);
     let users = response.results[0];
@@ -69,7 +69,7 @@ async function pageChangeOperations(pageNum: number) {
  * @param {Number} page current page number
  * @param {Array} pageData the users in the page
  */
-function renderPage(page: number, pageData: UsersT[]) {
+function uiRenderer(page: number, pageData: UsersT[]) {
   appContainer.innerHTML = `<table>
         <caption>paginated random data of app users</caption>
         <thead>
