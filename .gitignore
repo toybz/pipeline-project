@@ -105,3 +105,4 @@ dist
 .idea/
 .parcel-cache/
 *.mdb
+/.parcel-cache/
