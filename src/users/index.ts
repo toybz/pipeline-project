@@ -89,7 +89,7 @@ function uiRenderer(page: number, pageData: UsersT[]) {
         
          <button data-nextbtn>Next</button>
     
-        <label data-pageview>Page Num: ${page}</label>
+        <label data-pageview>Showing Page ${page}</label>
     </div>`;
 
   // add event listeners for previous and next buttons
