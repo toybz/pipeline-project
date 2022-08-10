@@ -1,6 +1,9 @@
 import { FetchUserT } from "./types";
 
-const BASE_URL = "https://randomapi.com/api/8csrgnjw?key=LEIX-GF3O-AG7I-6J84";
+const API_KEY = process.env.TOKEN;
+const API_URL = process.env.SERVER;
+
+const BASE_URL = `${API_URL}?key=${API_KEY}`;
 
 /**
  *  fetch paginated users data from the endpoint using
